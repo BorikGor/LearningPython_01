@@ -4,7 +4,7 @@ yers = input("\nFor how many years can you spare that sum:")
 rslt=summ
 
 for i in range(1, int(yers)):
-    rslt = float(rslt)*(1+float(prcnt)*0.01)
+    rslt = float(rslt)*(1+float(prcnt)*0.01) # todo: can use *= operator, don't need to float type conversion
     #print(rslt)
 
 print("After ",yers," years you'll get your ",summ,"dollars turned into ",round(float(rslt),2),".")

@@ -1,6 +1,6 @@
 mnth = input("Which month do you want to check:")
 match mnth:
-    case "01"|"1"|"Jan"|"jan"|"January"|"january":
+    case "01"|"1"|"Jan"|"jan"|"January"|"january": # todo: by condition it was only month number.
         print("January", end="")
         ssn="Winter"
     case "02"|"2"|"Feb"|"February"|"february":
@@ -36,6 +36,7 @@ match mnth:
     case "12"|"12"|"Dec"|"December"|"december":
         print("December", end="")
         ssn="Winter"
+    # todo: too many "case" rows
     case "quit":
 
         exit()

@@ -4,11 +4,11 @@ if day.isnumeric():
         pass
     else:
         print('Day entered incorrectly')
-        exit()
+        exit() # todo: good idea to use exit()
 else:
     print('Day entered incorrectly')
     exit()
-
+# todo: too much rows of code. By condition month should be only number
 mnth = input("Please enter the month:")
 match mnth:
     case "01" | "1" | "Jan" | "jan" | "January" | "january":

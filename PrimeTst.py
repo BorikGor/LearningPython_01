@@ -4,7 +4,7 @@ match int(nmbr):
         print("It's a Prime Number.")
         exit()
     case _:
-        for i in range(2, 1+int(nmbr)//2):
+        for i in range(2, 1+int(nmbr)//2): #todo: good idea to check only half of whole range
             if (int(nmbr) % i):
                 prime = True
                 print("Checked", i, ", looks prime.")
